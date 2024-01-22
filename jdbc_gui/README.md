@@ -1,0 +1,1 @@
+A simple application in JAVA that employs a user-interface to perform insertion and viewing from a locally installed database (Oracle used here) and displays the data in a tabular format.
