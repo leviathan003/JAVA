@@ -62,7 +62,7 @@ public class JDBC_GUI_APP extends JFrame implements ActionListener{
 			}
 			else {
 				Class.forName("oracle.jdbc.driver.OracleDriver");
-				con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","username","password");
+				con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","usrname","password");
 			
 				Statement smt = con.createStatement();
 				smt.executeUpdate("create table "+ tablename_Line.getText() +"(id_no number(10) primary key, "
